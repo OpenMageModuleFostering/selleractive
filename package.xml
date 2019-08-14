@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+    <name>SellerActive</name>
+    <version>1.1.1</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Strategically price, manage, and fulfill your orders in your Magento store and on other marketplaces.</summary>
+    <description>&lt;p&gt;&lt;b&gt;Competitive Pricing&lt;/b&gt;&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Market-based repricing tools.&lt;/i&gt; Automatically react and adjust to your industry's pricing trends.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Customized and complex pricing strategies.&lt;/i&gt; Hold the lowest or average price, or construct your own algorithm.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Fast, unlimited updates.&lt;/i&gt; Adjust prices as often as needed with no limits or transaction fees.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Group pricing.&lt;/i&gt; Apply the same strategy to products by category, so there's no need to go through each product.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Consolidated Order Management&lt;/b&gt;&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Multi-channel integrated dashboard.&lt;/i&gt; Manage incoming orders from every marketplace.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Design and print packing slips.&lt;/i&gt; Automatically print custom-designed packing slips when you're ready to ship.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Customer confirmation.&lt;/i&gt; Push notifications and shipping numbers back to the marketplace.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;FBA integration.&lt;/i&gt; Fulfill orders using your FBA inventory with a click.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Automatic Carrier Rate Shopping&lt;/b&gt;&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;The best shipping option automatically.&lt;/i&gt; Shop rates and purchase with one-scan-and-click.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Adaptable shipping rules.&lt;/i&gt; Set qualifications for expedited shipping and other special exceptions.&lt;br /&gt;&#x2003;&#x2022; &lt;i&gt;Flat-rate pricing.&lt;/i&gt; Available at a fixed monthly rate.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;How to Get Started&lt;/b&gt;&lt;br /&gt;&#xD;
+1. Click &amp;quot;Install Now&amp;quot; to begin installing.&lt;br /&gt;&#xD;
+2. Sign up for a 30 day free trial of SellerActive &lt;a href="http://www.selleractive.com/inventory.aspx"&gt;Inventory Management&lt;/a&gt; or &lt;a href="http://www.selleractive.com/orders.aspx"&gt;Order Management&lt;/a&gt;.&lt;br /&gt;&#x2003;(Note: Signing up for Inventory Management grants free access to Order Management as well.)&lt;br /&gt;&#xD;
+3. From the SellerActive dashboard, under Orders, click &amp;quot;Manage Sales Channels&amp;quot;.&lt;br /&gt;&#xD;
+4. Select Magento from the &amp;quot;Site Integration&amp;quot; list on the left.&lt;br /&gt;&#xD;
+5. Follow on-screen instructions.&lt;br /&gt;&lt;br /&gt;&#xD;
+If you have any issues please do not hesitate to &lt;a href="https://selleractive.zendesk.com"&gt;contact our customer support&lt;/a&gt;.&lt;br /&gt;&#xD;
+&lt;/p&gt;</description>
+    <notes>Stable release</notes>
+    <authors><author><name>SellerActive</name><user>SellerActive</user><email>support@selleractive.com</email></author></authors>
+    <date>2015-02-09</date>
+    <time>19:37:46</time>
+    <contents><target name="magecommunity"><dir name="SellerActive"><dir name="Block"><dir name="Adminhtml"><dir name="Settings"><file name="Form.php" hash="1cfebcd76420a73cf3eb3b80d4b90bd6"/></dir><file name="Settings.php" hash="dadb9e804b9510db0125eb41ff0ea5b8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="4eb452b99b6a52dd018eece47a989c82"/></dir><dir name="Model"><file name="Config.php" hash="c29137876435bcc0d0df997521a3f1f4"/><dir name="Resource"><file name="Setting.php" hash="b3fe72391d31bb37bfb4f5234e1ac842"/></dir><file name="Setting.php" hash="f35c86e6550f1e55431991b721087ab3"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="SettingsController.php" hash="f34afddf1c32930c4f8a73a790b624de"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="6e9af6333e890b8a5d95195417659758"/><file name="config.xml" hash="580d39f52fd1568cc96acc82fdda440e"/><file name="webservice.xml" hash="90a164319e952d21d982f89b4b302005"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9</max></package></required></dependencies>
+</package>

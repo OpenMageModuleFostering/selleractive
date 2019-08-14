@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<webservice>
+    <setting_fields>
+        <webapikey>
+            <label><![CDATA[SellerActive API Key]]></label>
+            <api_key>webapikey</api_key>
+            <document_link>
+                <label><![CDATA[How to find your API key]]></label>
+                <link_to><![CDATA[https://selleractive.zendesk.com/entries/23512476]]></link_to>
+            </document_link>
+        </webapikey>
+
+        <is_active>
+            <label><![CDATA[Turn SellerActive On/Off]]></label>
+            <api_key>IsActive</api_key>
+        </is_active>
+        <magento_to_domain>
+            <label><![CDATA[Domain Name]]></label>
+            <api_key>MagentoDomain</api_key>
+            <document_link>
+                <label><![CDATA[How to find your domain name]]></label>
+                <link_to><![CDATA[https://selleractive.zendesk.com/entries/23494472]]></link_to>
+            </document_link>
+        </magento_to_domain>
+        <magento_to_login>
+            <label><![CDATA[SOAP User Name]]></label>
+            <api_key>MagentoLogin</api_key>
+            <document_link>
+                <label><![CDATA[How to find your SOAP username and password]]></label>
+                <link_to><![CDATA[https://selleractive.zendesk.com/entries/23494482]]></link_to>
+            </document_link>
+        </magento_to_login>
+        <magento_password>
+            <label><![CDATA[SOAP Password]]></label>
+            <api_key>MagentoPassword</api_key>
+        </magento_password>
+		<magento_version>
+            <label><![CDATA[Magento Version]]></label>
+            <api_key>MagentoVersion</api_key>
+        </magento_version>
+
+        <magento_order_start>
+            <label><![CDATA[Starting Order ID]]></label>
+            <api_key>MagentoOrderStart</api_key>
+			<document_link>
+                <label><![CDATA[How to set your starting Order ID]]></label>
+                <link_to><![CDATA[https://selleractive.zendesk.com/entries/23508487]]></link_to>
+            </document_link>
+        </magento_order_start>
+
+        <magento_store_view>
+            <label><![CDATA[Website Name]]></label>
+            <api_key>MagentoStoreView</api_key>
+        </magento_store_view>
+		
+		<magento_import_hidden_inventory>
+            <label><![CDATA[Import Hidden Inventory]]></label>
+            <api_key>MagentoHiddenInventory</api_key>
+        </magento_import_hidden_inventory>
+		<magento_send_email_when_shipped>
+            <label><![CDATA[Send Email When Shipped]]></label>
+            <api_key>MagentoSendEmailWhenShipped</api_key>
+        </magento_send_email_when_shipped>
+		<magento_include_comment_in_email>
+            <label><![CDATA[Include Comment in Email]]></label>
+            <api_key>MagentoIncludeCommentInEmail</api_key>
+        </magento_include_comment_in_email>
+		<magento_shipping_comment>
+            <label><![CDATA[Shipping Comment]]></label>
+            <api_key>MagentoShippingComment</api_key>
+        </magento_shipping_comment>
+
+    </setting_fields>
+</webservice>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <selleractive module="selleractive">
+                    <title>SellerActive</title>
+                    <action>selleractive/adminhtml_settings</action>
+                </selleractive>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <selleractive module="selleractive">
+                                <title>SellerActive</title>
+                            </selleractive>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

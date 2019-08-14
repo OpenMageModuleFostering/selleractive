@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SellerActive_SellerActive>
+            <version>1.1.1</version>
+        </SellerActive_SellerActive>
+    </modules>
+    <admin>
+        <routers>
+            <selleractive>
+                <use>admin</use>
+                <args>
+                    <module>SellerActive_SellerActive</module>
+                    <frontName>selleractive</frontName>
+                </args>
+            </selleractive>
+        </routers>
+    </admin>
+    <global>
+        <blocks>
+            <selleractive>
+                <class>SellerActive_SellerActive_Block</class>
+            </selleractive>
+        </blocks>
+        <models>
+            <selleractive>
+                <class>SellerActive_SellerActive_Model</class>
+                <resourceModel>selleractive_resource</resourceModel>
+            </selleractive>
+            <selleractive_resource>
+                <class>SellerActive_SellerActive_Model_Resource</class>
+            </selleractive_resource>
+        </models>
+
+        <helpers>
+            <selleractive>
+                <class>SellerActive_SellerActive_Helper</class>
+            </selleractive>
+        </helpers>
+    </global>
+</config>
