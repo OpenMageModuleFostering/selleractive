@@ -2,7 +2,7 @@
 <config>
     <modules>
         <SellerActive_SellerActive>
-            <version>1.1.1</version>
+            <version>1.1.3</version>
         </SellerActive_SellerActive>
     </modules>
     <admin>
