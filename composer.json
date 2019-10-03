@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/SellerActive",
+    "name": "openmage-module-fostering\/selleractive",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Strategically price, manage, and fulfill your orders in your Magento store and on other marketplaces.",
     "authors": [
