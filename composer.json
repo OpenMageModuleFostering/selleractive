@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SellerActive",
+    "name": "OpenMageModuleFostering\/SellerActive",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Strategically price, manage, and fulfill your orders in your Magento store and on other marketplaces.",
     "authors": [
-    {
-        "name": "SellerActive",
-        "email": "support@selleractive.com"
-    }
-],
+        {
+            "name": "SellerActive",
+            "email": "support@selleractive.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
